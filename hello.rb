@@ -8,3 +8,7 @@ get '/bye' do
   "good bye!"
 end
 
+get '/erbtest' do
+  erb :erbtest
+end
+
